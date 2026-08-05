@@ -24,7 +24,15 @@
 
   
 - Activities Performed
-  
+  Checkpoint 1 – Enter the Cloud  
+  Checkpoint 2 – Meet Your Environment 
+  Checkpoint 3 – Build Your Workspace 
+  Checkpoint 4 – Create Your Cloud Computing Portfolio 
+  Checkpoint 5 – Document Your Mission 
+  Checkpoint 6 – Capture Evidence 
+  Checkpoint 7 – Complete the Mission 
+
 - Linux Commands Use
+  
   
 - Skills Learned
