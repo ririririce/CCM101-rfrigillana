@@ -1,72 +1,14 @@
-1. Linux Distribution
-rfrigillana@ubuntu:~$ lsb_release -d
-No LSB modules are available.
-Description:    Ubuntu 24.04.4 LTS
+##  Linux Distribution
+The system is running **Ubuntu 24.04.4 LTS**, a Long-Term Support (LTS) release that provides enhanced stability, security updates, and long-term maintenance.
 
-2. Kernel Version
-rfrigillana@ubuntu:~$ uname -r
-6.8.0-136-generic
+##  Kernel Version
+The Linux kernel version is **6.8.0-136-generic**, which manages the system's hardware resources and core operating system functions.
 
-3. CPU Information
-Architecture:                x86_64
-  CPU op-mode(s):            32-bit, 64-bit
-  Address sizes:             39 bits physical, 48 bits virtual
-  Byte Order:                Little Endian
-CPU(s):                      1
-  On-line CPU(s) list:       0
-Vendor ID:                   GenuineIntel
-  Model name:                Intel Xeon E312xx (Sandy Bridge, IBRS update)
-    CPU family:              6
-    Model:                   42
-    Thread(s) per core:      1
-    Core(s) per socket:      1
-    Socket(s):               1
-    Stepping:                1
-    BogoMIPS:                7392.00
-    Flags:                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology cp
-                             uid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm cpuid_fault pti ssbd ibrs ibp
-                             b stibp tsc_adjust xsaveopt arat md_clear
-Virtualization features:     
-  Hypervisor vendor:         KVM
-  Virtualization type:       full
-Caches (sum of all):         
-  L1d:                       32 KiB (1 instance)
-  L1i:                       32 KiB (1 instance)
-  L2:                        4 MiB (1 instance)
-  L3:                        16 MiB (1 instance)
-NUMA:                        
-  NUMA node(s):              1
-  NUMA node0 CPU(s):         0
-Vulnerabilities:             
-  Gather data sampling:      Not affected
-  Indirect target selection: Mitigation; Aligned branch/return thunks
-  Itlb multihit:             KVM: Mitigation: VMX unsupported
-  L1tf:                      Mitigation; PTE Inversion
-  Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown
-  Meltdown:                  Mitigation; PTI
-  Mmio stale data:           Unknown: No mitigations
-  Reg file data sampling:    Not affected
-  Retbleed:                  Not affected
-  Spec rstack overflow:      Not affected
-  Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
-  Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-  Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
-  Srbds:                     Not affected
-  Tsa:                       Not affected
-  Tsx async abort:           Not affected
-  Vmscape:                   Not affected
+##  CPU Information
+The environment uses an **Intel Xeon E312xx (Sandy Bridge)** processor with **1 CPU core** and supports both **32-bit and 64-bit** architectures. It is running on a **KVM virtual machine**, indicating that the Linux environment is fully virtualized.
 
-4. Total Memory 
-               total        used        free      shared  buff/cache   available
-Mem:           1.9Gi       426Mi       851Mi       1.1Mi       793Mi       1.4Gi
-Swap:          1.0Gi          0B       1.0Gi
+##  Total Memory
+The system has approximately **1.9 GiB of RAM**, with **426 MiB currently in use**, **851 MiB free**, and around **1.4 GiB available** for applications. It also includes **1.0 GiB of swap space**, which is currently unused.
 
-5. Available Disk Space 
-Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           191M 1020K  190M   1% /run
-/dev/vda1        19G  5.4G   13G  30% /
-tmpfs           952M   84K  952M   1% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-/dev/vda16      881M  117M  703M  15% /boot
-/dev/vda15      105M  6.2M   99M   6% /boot/efi
-tmpfs           191M  8.0K  191M   1% /run/user/1001
+##  Available Disk Space
+The primary storage device (`/dev/vda1`) has a total capacity of **19 GB**, with **5.4 GB used** and approximately **13 GB of available space**, leaving the disk at **30% utilization**.
