@@ -1,58 +1,85 @@
-- Mission Overview
-  Congratulations! 
-  You have been accepted as a Junior Cloud Infrastructure Engineer Trainee at CloudNova Technologies, a 
-  company specializing in cloud infrastructure, virtualization, and enterprise cloud solutions. 
-  As part of your onboarding process, you must complete your first mission. Before deploying cloud services or 
-  managing enterprise infrastructures, every cloud engineer must first learn how to work inside a Linux 
-  environment, document their work professionally, and maintain a version-controlled portfolio using GitHub. 
-  Your task is to complete the onboarding mission using the KillerCoda Playground and create your personal 
-  Cloud Computing Portfolio on GitHub. This portfolio will serve as your professional workspace throughout the 
-  semester and will be updated after every laboratory activity. 
-  Complete each checkpoint carefully. Every completed task represents a real-world responsibility of a cloud 
-  engineer. 
+# 📖 Mission Overview
 
-  
-- Objectives
-  Upon successful completion of this mission, you should be able to: 
-     Access a cloud-based Linux environment using KillerCoda.  
-     Explore and navigate the Linux operating system.  
-     Gather basic system information.  
-     Organize files and directories using Linux commands.  
-     Create and maintain a professional GitHub repository.  
-     Document technical work using Markdown.  
-     Demonstrate proper documentation practices used by cloud professionals.
+**Congratulations!**
+You have been accepted as a **Junior Cloud Infrastructure Engineer Trainee** at **CloudNova Technologies**, a company specializing in cloud infrastructure, virtualization, and enterprise cloud solutions.
 
-  
-- Activities Performed
-  Checkpoint 1 – Enter the Cloud  
-  Checkpoint 2 – Meet Your Environment 
-  Checkpoint 3 – Build Your Workspace 
-  Checkpoint 4 – Create Your Cloud Computing Portfolio 
-  Checkpoint 5 – Document Your Mission 
-  Checkpoint 6 – Capture Evidence 
-  Checkpoint 7 – Complete the Mission 
+As part of your onboarding process, you have been assigned your very first mission. Before deploying cloud services or managing enterprise infrastructures, every cloud engineer must first master the fundamentals of working in a Linux environment, documenting technical work professionally, and maintaining a version-controlled portfolio using GitHub.
 
-- Linux Commands Use
-| Command | Description |
-|---------|-------------|
-| `pwd` | Shows the current working directory. |
-| `whoami` | Displays the current user. |
-| `hostname` | Shows the system hostname. |
-| `useradd` | Creates a new user account. |
-| `passwd` | Sets or changes a user's password. |
-| `usermod` | Modifies a user account. |
-| `mkdir` | Creates directories. |
-| `touch` | Creates empty files. |
-| `ls` | Lists files and folders. |
-| `mv` | Moves files or folders. |
-| `cat` | Displays file contents. |
-| `uname -r` | Displays the Linux kernel version. |
-| `lscpu` | Displays CPU information. |
-| `free -h` | Displays memory information. |
-| `df -h` | Displays disk usage. |
-| `git add` | Stages files for commit. |
-| `git commit` | Saves changes to the local repository. |
-| `git push` | Uploads changes to GitHub. |  
-  
-- Skills Learned
-This lab was a great hands-on introduction to the core tools I'll be using as an IT professional. I got comfortable navigating the Linux command line, managing user accounts, organizing files, pulling system information, and pushing code to GitHub—all in a cloud-based environment. It definitely boosted my confidence working remotely and gave me a much clearer picture of how these essential tools come together in real-world IT and cloud computing.
+Your mission is to complete the onboarding tasks using the **KillerCoda Ubuntu Playground** while building your own **Cloud Computing Portfolio** on GitHub. This portfolio will serve as your professional workspace throughout the semester, showcasing every laboratory activity, reflection, and achievement.
+
+Each completed checkpoint represents a real-world responsibility of a cloud engineer and marks another milestone in your learning journey.
+
+---
+
+# Objectives
+
+By the end of this laboratory, I should be able to:
+
+-  Access a cloud-based Linux environment using KillerCoda.
+-  Explore and navigate the Linux operating system.
+-  Gather essential system information.
+-  Organize files and directories using Linux commands.
+-  Create and maintain a professional GitHub repository.
+-  Document technical work using Markdown.
+-  Apply proper documentation practices used by cloud professionals.
+
+---
+
+# Activities Performed
+
+| Checkpoint | Activity | Status |
+|------------|----------|:------:|
+| **Checkpoint 1** | Enter the Cloud | ✅ |
+| **Checkpoint 2** | Meet Your Environment | ✅ |
+| **Checkpoint 3** | Build Your Workspace | ✅ |
+| **Checkpoint 4** | Create Your Cloud Computing Portfolio | ✅ |
+| **Checkpoint 5** | Document Your Mission | ✅ |
+| **Checkpoint 6** | Capture Evidence | ✅ |
+| **Checkpoint 7** | Complete the Mission | ✅ |
+
+---
+
+# Linux Commands Used
+
+| Command | Purpose |
+|---------|---------|
+| `pwd` | Display the current working directory. |
+| `whoami` | Display the currently logged-in user. |
+| `hostname` | Display the system hostname. |
+| `useradd` | Create a new user account. |
+| `passwd` | Set or change a user's password. |
+| `usermod` | Modify a user account or group membership. |
+| `mkdir` | Create directories. |
+| `touch` | Create empty files. |
+| `ls` | List files and directories. |
+| `mv` | Move or rename files and folders. |
+| `cat` | Display the contents of a file. |
+| `uname -r` | Display the Linux kernel version. |
+| `lscpu` | Show CPU information. |
+| `free -h` | Display memory usage in a human-readable format. |
+| `df -h` | Display available disk space. |
+| `git add` | Stage files for the next commit. |
+| `git commit` | Save changes to the local Git repository. |
+| `git push` | Upload commits to GitHub. |
+
+---
+
+# Skills Learned
+
+This laboratory provided me with a solid introduction to the tools and practices commonly used in cloud computing and system administration. Throughout the activity, I learned how to:
+
+- Navigate and work confidently in a Linux environment.
+- Create and manage user accounts.
+- Organize files and directories efficiently.
+- Gather important system information.
+- Write technical documentation using Markdown.
+- Manage repositories with Git and GitHub.
+- Understand how cloud-based Linux environments are used for development and administration.
+
+More importantly, this activity strengthened my confidence in using the command line and highlighted the importance of organization, documentation, and version control—essential skills for every aspiring cloud engineer.
+
+---
+
+> **Mission Status:**  **Completed Successfully**
+
+*"The cloud is more than technology—it's a journey of continuous learning, problem-solving, and innovation."*
