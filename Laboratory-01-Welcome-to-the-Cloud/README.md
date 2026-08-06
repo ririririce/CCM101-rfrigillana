@@ -33,6 +33,26 @@
   Checkpoint 7 – Complete the Mission 
 
 - Linux Commands Use
-  
+| Command | Description |
+|---------|-------------|
+| `pwd` | Shows the current working directory. |
+| `whoami` | Displays the current user. |
+| `hostname` | Shows the system hostname. |
+| `useradd` | Creates a new user account. |
+| `passwd` | Sets or changes a user's password. |
+| `usermod` | Modifies a user account. |
+| `mkdir` | Creates directories. |
+| `touch` | Creates empty files. |
+| `ls` | Lists files and folders. |
+| `mv` | Moves files or folders. |
+| `cat` | Displays file contents. |
+| `uname -r` | Displays the Linux kernel version. |
+| `lscpu` | Displays CPU information. |
+| `free -h` | Displays memory information. |
+| `df -h` | Displays disk usage. |
+| `git add` | Stages files for commit. |
+| `git commit` | Saves changes to the local repository. |
+| `git push` | Uploads changes to GitHub. |  
   
 - Skills Learned
+This lab was a great hands-on introduction to the core tools I'll be using as an IT professional. I got comfortable navigating the Linux command line, managing user accounts, organizing files, pulling system information, and pushing code to GitHub—all in a cloud-based environment. It definitely boosted my confidence working remotely and gave me a much clearer picture of how these essential tools come together in real-world IT and cloud computing.
