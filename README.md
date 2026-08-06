@@ -1,6 +1,6 @@
 <div align="center">
 
----
+<img src="https://github.com/ririririce.png" width="180">
 
  **Riccel B. Frigillana**  
  Bachelor of Science in Information Technology  
