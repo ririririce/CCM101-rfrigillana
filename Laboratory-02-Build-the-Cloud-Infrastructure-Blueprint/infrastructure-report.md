@@ -1,4 +1,4 @@
-## 1. Operating System
+## 🐧1. Operating System
 
 The cloud server is running **Ubuntu 24.04.4 LTS**, with the release codename **Noble**. The operating system information is shown below.
 
@@ -13,7 +13,7 @@ The cloud server is running **Ubuntu 24.04.4 LTS**, with the release codename **
 
 ---
 
-## 2. Kernel Version
+## 🔧2. Kernel Version
 
 The server is running **Linux kernel version 6.8.0-136-generic**.
 
@@ -25,7 +25,7 @@ The kernel manages the system's hardware resources and provides the connection b
 
 ---
 
-## 3. CPU Model
+## 🧠3. CPU Model
 
 The server uses an **Intel Xeon E312xx (Sandy Bridge, IBRS update)** processor. The BIOS also reports the virtual machine configuration as **RHEL-9.6.0 PC (Q35 + ICH9, 2009) CPU @ 2.0GHz**.
 
@@ -36,7 +36,7 @@ The server uses an **Intel Xeon E312xx (Sandy Bridge, IBRS update)** processor. 
 
 ---
 
-## 4. Number of CPU Cores
+## ⚙️4. Number of CPU Cores
 
 The server has **1 CPU core** available.
 
@@ -48,7 +48,7 @@ This CPU resource provides the processing capacity used by the operating system,
 
 ---
 
-## 5. Total RAM
+## 🧮5. Total RAM
 
 The server has **1.9 GiB of total RAM**. At the time the system information was recorded, **460 MiB** was being used, while **743 MiB** was free and **1.4 GiB** was available.
 
@@ -68,7 +68,7 @@ The server also has **1.0 GiB of swap space**, which was not being used at the t
 
 ---
 
-## 6. Disk Capacity
+## 💿6. Disk Capacity
 
 The main filesystem, `/dev/vda1`, has a total capacity of **19 GB**. It has **5.4 GB** of used space and **13 GB** of available space.
 
@@ -80,7 +80,7 @@ The root filesystem `/` contains the main operating system files, directories, a
 
 ---
 
-## 7. Mounted File Systems
+## 🗂️7. Mounted File Systems
 
 The server has several mounted filesystems that support different parts of the Linux environment.
 
@@ -97,7 +97,7 @@ The `/` filesystem serves as the main root filesystem. The `/boot` and `/boot/ef
 
 ---
 
-## 8. Hostname
+## 🖥️8. Hostname
 
 The hostname of the server is **`ubuntu`**.
 
@@ -109,7 +109,7 @@ The hostname is used to identify the server within its environment.
 
 ---
 
-## 9. IP Address
+## 🌐9. IP Address
 
 The server has the following IP addresses:
 
