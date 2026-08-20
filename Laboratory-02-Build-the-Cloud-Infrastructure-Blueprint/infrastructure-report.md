@@ -1,90 +1,108 @@
-## 🐧1. Operating System
+## 1. 🐧 Operating System
 
-The cloud server is running **Ubuntu 24.04.4 LTS**, with the release codename **Noble**. The operating system information is shown below.
+The server runs **Ubuntu 24.04.4 LTS**, using the release codename **Noble**.
 
-| Information    | Result             |
-| -------------- | ------------------ |
-| Distributor ID | Ubuntu             |
-| Description    | Ubuntu 24.04.4 LTS |
-| Release        | 24.04              |
-| Codename       | noble              |
+| Information        | Result             |
+| ------------------ | ------------------ |
+| **Distributor ID** | Ubuntu             |
+| **Description**    | Ubuntu 24.04.4 LTS |
+| **Release**        | 24.04              |
+| **Codename**       | `noble`            |
 
-> **Note:** The terminal displayed `No LSB modules are available.` However, the operating system information was still displayed correctly.
-
----
-
-## 🔧2. Kernel Version
-
-The server is running **Linux kernel version 6.8.0-136-generic**.
-
-| Information    | Result            |
-| -------------- | ----------------- |
-| Kernel Version | 6.8.0-136-generic |
-
-The kernel manages the system's hardware resources and provides the connection between the operating system and the underlying hardware.
+Ubuntu provides the operating environment where the server's applications, processes, networking, and other resources operate.
 
 ---
 
-## 🧠3. CPU Model
+# 2. 🔧 Kernel Version
 
-The server uses an **Intel Xeon E312xx (Sandy Bridge, IBRS update)** processor. The BIOS also reports the virtual machine configuration as **RHEL-9.6.0 PC (Q35 + ICH9, 2009) CPU @ 2.0GHz**.
+The server is running **Linux kernel 6.8.0-136-generic**.
 
-| Information | Result                                        |
-| ----------- | --------------------------------------------- |
-| CPU Model   | Intel Xeon E312xx (Sandy Bridge, IBRS update) |
-| BIOS Model  | RHEL-9.6.0 PC (Q35 + ICH9, 2009) CPU @ 2.0GHz |
+| Information        | Result              |
+| ------------------ | ------------------- |
+| **Kernel Version** | `6.8.0-136-generic` |
 
----
-
-## ⚙️4. Number of CPU Cores
-
-The server has **1 CPU core** available.
-
-| Information | Result |
-| ----------- | -----: |
-| CPU Cores   |      1 |
-
-This CPU resource provides the processing capacity used by the operating system, applications, and running processes.
+The kernel serves as the core of the Linux operating system, managing system resources and allowing software to interact with the available hardware.
 
 ---
 
-## 🧮5. Total RAM
+# 3. 🧠 CPU Model
 
-The server has **1.9 GiB of total RAM**. At the time the system information was recorded, **460 MiB** was being used, while **743 MiB** was free and **1.4 GiB** was available.
+The CPU identified by the Linux environment is an **Intel Xeon E312xx (Sandy Bridge, IBRS update)**.
 
-| Memory Information |  Result |
-| ------------------ | ------: |
-| Total RAM          | 1.9 GiB |
-| Used               | 460 MiB |
-| Free               | 743 MiB |
-| Shared             | 1.1 MiB |
-| Buff/Cache         | 871 MiB |
-| Available          | 1.4 GiB |
-| Swap Total         | 1.0 GiB |
-| Swap Used          |     0 B |
-| Swap Free          | 1.0 GiB |
+| Information    | Result                                        |
+| -------------- | --------------------------------------------- |
+| **CPU Model**  | Intel Xeon E312xx (Sandy Bridge, IBRS update) |
+| **BIOS Model** | RHEL-9.6.0 PC (Q35 + ICH9, 2009) CPU @ 2.0GHz |
 
-The server also has **1.0 GiB of swap space**, which was not being used at the time.
+The CPU provides the processing capability required to execute applications, system processes, and cloud workloads.
 
 ---
 
-## 💿6. Disk Capacity
+# 4. ⚙️ CPU Cores
 
-The main filesystem, `/dev/vda1`, has a total capacity of **19 GB**. It has **5.4 GB** of used space and **13 GB** of available space.
+The environment has **1 CPU core** available.
+
+| Resource      | Value |
+| ------------- | ----: |
+| **CPU Cores** | **1** |
+
+A CPU core represents an available processing unit. In this environment, the cloud server has a single assigned core for processing its workloads.
+
+---
+
+# 5. 🧮 Memory / RAM
+
+The server has **1.9 GiB of total RAM**.
+
+### Memory Status
+
+| Memory           |  Amount |
+| ---------------- | ------: |
+| **Total**        | 1.9 GiB |
+| **Used**         | 460 MiB |
+| **Free**         | 743 MiB |
+| **Shared**       | 1.1 MiB |
+| **Buffer/Cache** | 871 MiB |
+| **Available**    | 1.4 GiB |
+
+### Swap Status
+
+| Swap      |  Amount |
+| --------- | ------: |
+| **Total** | 1.0 GiB |
+| **Used**  |     0 B |
+| **Free**  | 1.0 GiB |
+
+At the time of checking, the server had **1.4 GiB of available memory**, while its **1.0 GiB swap space was unused**.
+
+---
+
+# 6. 💿 Disk Capacity
+
+The primary filesystem is `/dev/vda1`, which provides **19 GB** of storage.
 
 | Filesystem  |  Size |   Used | Available | Usage | Mount Point |
 | ----------- | ----: | -----: | --------: | ----: | ----------- |
 | `/dev/vda1` | 19 GB | 5.4 GB |     13 GB |   30% | `/`         |
 
-The root filesystem `/` contains the main operating system files, directories, and installed applications.
+### Storage Snapshot
+
+```text
+Total Capacity    19 GB
+Used              5.4 GB
+Available         13 GB
+Utilization       30%
+```
+
+Approximately **70% of the main filesystem remains available**, providing space for applications, files, and additional system data.
 
 ---
 
-## 🗂️7. Mounted File Systems
+# 7. 🗂️ Mounted File Systems
 
-The server has several mounted filesystems that support different parts of the Linux environment.
+The Linux environment contains several mounted filesystems. Each serves a specific purpose within the operating system.
 
-| Filesystem   |   Size |   Used | Available | Usage | Mounted On  |
+| Filesystem   |   Size |   Used | Available | Usage | Mount Point |
 | ------------ | -----: | -----: | --------: | ----: | ----------- |
 | `tmpfs`      | 191 MB | 996 KB |    190 MB |    1% | `/run`      |
 | `/dev/vda1`  |  19 GB | 5.4 GB |     13 GB |   30% | `/`         |
@@ -93,30 +111,64 @@ The server has several mounted filesystems that support different parts of the L
 | `/dev/vda16` | 881 MB | 117 MB |    703 MB |   15% | `/boot`     |
 | `/dev/vda15` | 105 MB | 6.2 MB |     99 MB |    6% | `/boot/efi` |
 
-The `/` filesystem serves as the main root filesystem. The `/boot` and `/boot/efi` partitions contain files needed during the system startup process, while the `tmpfs` filesystems provide temporary storage used by the system.
+### 📁 Filesystem Roles
+
+| Mount Point | Purpose                                                               |
+| ----------- | --------------------------------------------------------------------- |
+| `/`         | Main root filesystem containing the operating system and applications |
+| `/boot`     | Stores files required during the Linux boot process                   |
+| `/boot/efi` | Contains EFI-related boot files                                       |
+| `/run`      | Stores temporary runtime information                                  |
+| `/dev/shm`  | Provides temporary shared-memory storage                              |
+| `/run/lock` | Provides temporary lock-related runtime storage                       |
 
 ---
 
-## 🖥️8. Hostname
+# 8. 🖥️ Hostname
 
-The hostname of the server is **`ubuntu`**.
+The hostname assigned to the server is:
 
-| Information | Result |
-| ----------- | ------ |
-| Hostname    | ubuntu |
+```text
+ubuntu
+```
 
-The hostname is used to identify the server within its environment.
+| Information  | Result   |
+| ------------ | -------- |
+| **Hostname** | `ubuntu` |
+
+The hostname provides an identifiable name for the server within its environment.
 
 ---
 
-## 🌐9. IP Address
+# 9. 🌐 IP Address
 
-The server has the following IP addresses:
+The server returned two IP addresses:
 
-| Address      | Result       |
-| ------------ | ------------ |
-| IP Address 1 | `172.30.1.2` |
-| IP Address 2 | `172.17.0.1` |
+| Interface Address | IP Address   |
+| ----------------- | ------------ |
+| **Address 1**     | `172.30.1.2` |
+| **Address 2**     | `172.17.0.1` |
 
-Both addresses were returned by the `hostname -I` command.
+These addresses were returned by the `hostname -I` command.
+
+>  **Network Note:** Both addresses belong to private IP address ranges and are associated with the network environment provided by the cloud playground.
+
+---
+
+# *📊 Summary*
+
+*The following table summarizes the main infrastructure resources identified in the Linux environment.*
+
+| *Category*    | *Resource*     | *Result*                         |
+| ------------- | -------------- | -------------------------------- |
+| *🐧 OS*       | *Distribution* | *Ubuntu 24.04.4 LTS*             |
+| *🔧 System*   | *Kernel*       | *6.8.0-136-generic*              |
+| *🧠 Compute*  | *CPU*          | *Intel Xeon E312xx*              |
+| *⚙️ Compute*  | *CPU Cores*    | *1*                              |
+| *🧮 Memory*   | *RAM*          | *1.9 GiB*                        |
+| *💿 Storage*  | *Main Disk*    | *19 GB*                          |
+| *🗂️ Storage* | *Root Usage*   | *30%*                            |
+| *🖥️ Network* | *Hostname*     | *`ubuntu`*                       |
+| *🌐 Network*  | *IP Addresses* | *`172.30.1.2`**, **`172.17.0.1`* |
+
 
