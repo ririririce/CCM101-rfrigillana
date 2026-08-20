@@ -119,6 +119,16 @@ The following commands were used throughout the laboratory activity to inspect t
 | `git add .` | Stages all new and modified files in the repository for the next commit. |
 | `git commit -m "show folder"` | Saves the staged changes to the local Git history with a descriptive commit message. |
 | `git push` | Uploads committed changes from the local repository to GitHub. |
+| `lsb_release -a` | Displays detailed information about the Linux distribution, including its name, version, release, and codename. |
+| `uname -r` | Displays the version of the Linux kernel currently running on the system. |
+| `lscpu \| grep "Model name"` | Displays the CPU model by filtering the `lscpu` output for the processor model name. |
+| `nproc` | Displays the number of processing units or CPU cores available to the system. |
+| `free -h` | Displays information about the system's RAM and swap memory in a human-readable format. |
+| `hostname` | Displays the hostname or name assigned to the Linux system. |
+| `hostname -I` | Displays the IP addresses assigned to the Linux system. |
+| `df -h` | Displays disk space usage for the mounted filesystems in a human-readable format. |
+| `nano` | Opens a terminal-based text editor used to create and edit files, including Markdown files. |
+| `cat` | Displays the contents of a file directly in the terminal. |
 
 ---
 
