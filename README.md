@@ -8,6 +8,7 @@
 **University of Eastern Pangasinan**
 
 *CCM101-Cloud Computing Portfolio*
+**Instructor: Mr. Cledmar N. Badongen**
 
 </div>
 
