@@ -1,4 +1,6 @@
+## Infrastructure Components
 
+---
 ## Compute Resources
 
 The KillerCoda Linux environment uses an **Intel Xeon E312xx (Sandy Bridge, IBRS update)** processor with **1 CPU core**. The system also has approximately **1.9 GiB of RAM** available.
