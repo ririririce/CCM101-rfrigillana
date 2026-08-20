@@ -9,7 +9,7 @@
 
 *CCM101-Cloud Computing Portfolio*
 
-**Instructor: Sir. Cledmar N. Badongen**
+**Instructor: Sir Cledmar N. Badongen**
 
 </div>
 
