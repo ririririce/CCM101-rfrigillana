@@ -7,7 +7,7 @@
 **Bachelor of Science in Information Technology**  
 **University of Eastern Pangasinan**
 
-*Cloud Computing Portfolio*
+*CCM101-Cloud Computing Portfolio*
 
 </div>
 
