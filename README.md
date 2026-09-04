@@ -65,7 +65,7 @@ Each laboratory folder contains the work completed for a specific activity. As t
 |---|---|---|
 | **Laboratory 01** | Introduction to Cloud Computing | ✅ Completed |
 | **Laboratory 02** | Build the Cloud Infrastructure Blueprint | ✅ Completed |
-| **Laboratory 03** | *Coming Soon* | ⏳ In Progress |
+| **Laboratory 03** | Multi-Cloud Explorer | ⏳ In Progress |
 | **Laboratory 04** | *Coming Soon* | ⏳ Upcoming |
 
 > More laboratory activities will be added as I progress through the course.
