@@ -57,6 +57,32 @@ The three cloud platforms offer similar types of services, but they use differen
 
 ## References
 
-- Amazon Web Services (AWS) Official Documentation
-- Microsoft Azure Official Documentation
-- Google Cloud Official Documentation
+### Amazon Web Services (AWS)
+
+- AWS Documentation – https://docs.aws.amazon.com/
+- AWS Global Infrastructure – Regions and Availability Zones
+- AWS Management Console Documentation
+- Amazon EC2 Documentation
+- Amazon S3 Documentation
+- Amazon RDS Documentation
+- Amazon VPC Documentation
+
+### Microsoft Azure
+
+- Microsoft Azure Documentation – https://learn.microsoft.com/azure/
+- Azure Portal Documentation
+- Azure Virtual Machines Documentation
+- Azure Blob Storage Documentation
+- Azure SQL Database Documentation
+- Azure Virtual Network Documentation
+- Microsoft Entra ID Documentation
+
+### Google Cloud
+
+- Google Cloud Documentation – https://cloud.google.com/docs
+- Google Cloud Global Infrastructure – Regions and Zones
+- Google Cloud Console Documentation
+- Compute Engine Documentation
+- Cloud Storage Documentation
+- Cloud SQL Documentation
+- Google Cloud VPC Documentation
