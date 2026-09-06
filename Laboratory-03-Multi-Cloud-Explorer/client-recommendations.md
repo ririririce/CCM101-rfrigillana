@@ -93,6 +93,25 @@ There is no single cloud platform that is perfect for every type of business. Ba
 
 ## References
 
-- Amazon Web Services (AWS) Official Documentation
-- Microsoft Azure Official Documentation
-- Google Cloud Official Documentation
+### Amazon Web Services
+
+- [Amazon EC2](https://docs.aws.amazon.com/ec2/)
+- [Amazon S3](https://docs.aws.amazon.com/s3/)
+- [Amazon RDS](https://docs.aws.amazon.com/rds/)
+- [Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/)
+- [Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/)
+- [Amazon CloudFront](https://docs.aws.amazon.com/cloudfront/)
+
+### Microsoft Azure
+
+- [Azure Virtual Machines](https://learn.microsoft.com/azure/virtual-machines/)
+- [Microsoft Entra ID](https://learn.microsoft.com/entra/identity/)
+- [Azure Blob Storage](https://learn.microsoft.com/azure/storage/blobs/)
+- [Azure Virtual Network](https://learn.microsoft.com/azure/virtual-network/)
+
+### Google Cloud
+
+- [Vertex AI](https://cloud.google.com/vertex-ai/docs)
+- [Compute Engine](https://cloud.google.com/compute/docs)
+- [Cloud Storage](https://cloud.google.com/storage/docs)
+- [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/docs)
