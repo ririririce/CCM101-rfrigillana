@@ -1,8 +1,9 @@
 ### Linux Server Information
 
+```markdown
+
 ## Operating System
 
-```text
 No LSB modules are available.
 Distributor ID: Ubuntu
 Description:    Ubuntu 24.04.4 LTS
@@ -78,6 +79,8 @@ tmpfs           952M   84K  952M   1% /dev/shm
 tmpfs           5.0M     0     5.0M   0% /run/lock
 /dev/vda16      881M  117M  703M  15% /boot
 /dev/vda15      105M  6.2M   99M   6% /boot/efi
+
+```
 
 <img width="1911" height="999" alt="checkpoint7" src="https://github.com/user-attachments/assets/217cbf17-ce3a-41d4-b456-4c8a7cdb280b" />
 
