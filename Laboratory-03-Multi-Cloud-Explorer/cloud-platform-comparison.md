@@ -59,26 +59,26 @@ The three cloud platforms offer similar types of services, but they use differen
 
 ### Amazon Web Services
 
-- [Amazon EC2](...)
-- [Amazon S3](...)
-- [Amazon RDS](...)
-- [Amazon EC2 Auto Scaling](...)
-- [Elastic Load Balancing](...)
-- [Amazon CloudFront](...)
-- [AWS Global Infrastructure](...)
+- [Amazon EC2](https://docs.aws.amazon.com/ec2/)
+- [Amazon S3](https://docs.aws.amazon.com/s3/)
+- [Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
+- [Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/)
+- [Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/)
+- [Amazon CloudFront](https://docs.aws.amazon.com/cloudfront/)
+- [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
 
 ### Microsoft Azure
 
-- [Azure Virtual Machines](...)
-- [Microsoft Entra ID](...)
-- [Azure Blob Storage](...)
-- [Azure SQL Database](...)
-- [Azure Virtual Network](...)
+- [Azure Virtual Machines](https://learn.microsoft.com/azure/virtual-machines/)
+- [Microsoft Entra ID](https://learn.microsoft.com/entra/identity/)
+- [Azure Blob Storage](https://learn.microsoft.com/azure/storage/blobs/)
+- [Azure SQL Database](https://learn.microsoft.com/azure/azure-sql/database/)
+- [Azure Virtual Network](https://learn.microsoft.com/azure/virtual-network/)
 
 ### Google Cloud
 
-- [Compute Engine](...)
-- [Cloud Storage](...)
-- [Cloud SQL](...)
-- [Google Kubernetes Engine](...)
-- [Vertex AI](...)
+- [Compute Engine](https://cloud.google.com/compute/docs)
+- [Cloud Storage](https://cloud.google.com/storage/docs)
+- [Cloud SQL](https://cloud.google.com/sql/docs)
+- [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/docs)
+- [Vertex AI](https://cloud.google.com/vertex-ai/docs)
