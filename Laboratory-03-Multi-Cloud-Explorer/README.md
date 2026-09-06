@@ -7,7 +7,7 @@
 ```bash
 cat /etc/os-release
 ```
-What the command does:
+### What the command does:
 
 The cat /etc/os-release command displays information about the Linux operating system by reading the /etc/os-release file. It shows details such as the distribution name, version, and release information.
 
@@ -21,7 +21,7 @@ The cat /etc/os-release command displays information about the Linux operating s
 ```bash
 lscpu
 ```
-What the command does:
+### What the command does:
 
 The lscpu command displays detailed information about the system's CPU. It shows details such as the CPU architecture, processor model, number of CPUs, cores, threads, virtualization, cache, and other processor-related information.
 
@@ -35,7 +35,7 @@ The lscpu command displays detailed information about the system's CPU. It shows
 ```bash
 free -h
 ```
-What the command does:
+### What the command does:
 
 The free -h command displays information about the system's memory usage in a human-readable format. It shows the total, used, free, shared, cached, and available memory, as well as the swap memory.
 
@@ -49,7 +49,7 @@ The free -h command displays information about the system's memory usage in a hu
 ```bash
 df -h
 ```
-What the command does:
+### What the command does:
 
 The df -h command displays the disk space usage of the system's mounted filesystems in a human-readable format. It shows the total size, used space, available space, usage percentage, and mount point of each filesystem.
 
