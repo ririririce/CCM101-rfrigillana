@@ -90,8 +90,8 @@ Different businesses have different needs, so the best cloud platform can change
 There is no single cloud platform that is perfect for every type of business. Based on my comparison, I would choose AWS for startups, large organizations, and global web applications, while Azure would be my choice for businesses that already use Microsoft technologies. For AI, Machine Learning, and Kubernetes, I would choose Google Cloud because of its strong support for these technologies.
 
 
-### References 
+## References
 
-Amazon Web Services (AWS) Official Documentation
-Microsoft Azure Official Documentation
-Google Cloud Official Documentation
+- Amazon Web Services (AWS) Official Documentation
+- Microsoft Azure Official Documentation
+- Google Cloud Official Documentation
