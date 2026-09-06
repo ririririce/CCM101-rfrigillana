@@ -72,6 +72,25 @@ I would recommend **AWS** for this company because it needs reliable infrastruct
 
 The best cloud platform depends on what each client needs. I chose AWS for the startup because it gives the company room to grow, Azure for the university because it already uses Microsoft technologies, and Google Cloud for the AI research company because of its AI and Machine Learning capabilities. For the global e-commerce company, AWS is a good choice because it can support a large number of users and handle changes in website traffic.
 
+---
+
+## Multi-Cloud Decision Matrix
+
+Different businesses have different needs, so the best cloud platform can change depending on the situation. The table below shows the platform I would choose for each requirement and the reason behind my choice.
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| **Startup Company** | AWS | I would choose AWS because a startup can begin with the resources it needs and add more as the business grows. |
+| **Enterprise Organization** | AWS | I would choose AWS because it has a wide variety of services that can support the different needs of a large organization. |
+| **Microsoft Environment** | Microsoft Azure | I would choose Azure because it works well with Microsoft products such as Windows Server, Microsoft 365, and Microsoft Entra ID. |
+| **AI / Machine Learning** | Google Cloud | I would choose Google Cloud because it has strong AI and Machine Learning services, including Vertex AI for working with AI models. |
+| **Kubernetes Deployment** | Google Cloud | I would choose Google Cloud because Google Kubernetes Engine (GKE) makes it easier to deploy and manage applications that use Kubernetes. |
+| **Global Web Application** | AWS | I would choose AWS because it has services that can help a web application handle many users and stay available in different parts of the world. |
+
+There is no single cloud platform that is perfect for every type of business. Based on my comparison, I would choose AWS for startups, large organizations, and global web applications, while Azure would be my choice for businesses that already use Microsoft technologies. For AI, Machine Learning, and Kubernetes, I would choose Google Cloud because of its strong support for these technologies.
+
+
+
 ## References
 
 - Amazon Web Services (AWS) Official Documentation
