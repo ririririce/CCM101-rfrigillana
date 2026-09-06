@@ -54,6 +54,8 @@ Throughout this course, I am developing skills in:
 - 📝 **Technical Documentation**
 - 🔄 **Git & GitHub**
 - 🧩 **Problem Solving**
+- 🌎 **Multi-Cloud Concepts**
+- 🤝 **Cloud Solution Planning**
 
 ---
 
@@ -65,7 +67,7 @@ Each laboratory folder contains the work completed for a specific activity. As t
 |---|---|---|
 | **Laboratory 01** | Introduction to Cloud Computing | ✅ Completed |
 | **Laboratory 02** | Build the Cloud Infrastructure Blueprint | ✅ Completed |
-| **Laboratory 03** | Multi-Cloud Explorer | ⏳ In Progress |
+| **Laboratory 03** | Multi-Cloud Explorer | ✅ Completed |
 | **Laboratory 04** | *Coming Soon* | ⏳ Upcoming |
 
 > More laboratory activities will be added as I progress through the course.
@@ -83,6 +85,7 @@ Each laboratory activity may contain:
 - ☁️ **Cloud infrastructure diagrams**
 - 🔍 **Research and comparisons**
 - 💭 **Personal reflections**
+- 📊 **Decision matrices and recommendations**
 
 This allows each activity to document not only the final output, but also the process and lessons learned along the way.
 
@@ -101,9 +104,9 @@ The following tools and technologies are being used throughout my Cloud Computin
 | 📝 **Markdown** | Technical documentation |
 | 💻 **Nano** | Terminal-based text editing |
 | 🌳 **Tree** | Directory structure visualization |
-| ☁️ **AWS** | Cloud platform research |
-| 🔷 **Microsoft Azure** | Cloud platform research |
-| 🌐 **Google Cloud** | Cloud platform research |
+| ☁️ **AWS** | Cloud platform research and service comparison |
+| 🔷 **Microsoft Azure** | Cloud platform research and service comparison |
+| 🌐 **Google Cloud** | Cloud platform research and service comparison |
 
 ---
 
@@ -119,6 +122,11 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Basic cloud infrastructure concepts
 - [x] Cloud provider service comparison
 - [x] Basic cloud infrastructure design
+- [x] Multi-cloud concepts
+- [x] Cloud service comparison
+- [x] Cloud platform recommendations
+- [x] Linux server information gathering
+- [x] Basic cloud hosting concepts
 - [ ] Linux system administration
 - [ ] Cloud networking
 - [ ] Cloud security
@@ -127,6 +135,18 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [ ] Infrastructure management
 
 This checklist will continue to change as I learn and complete more laboratory activities.
+
+---
+
+## What I Learned from Multi-Cloud Explorer
+
+Laboratory 03 gave me the opportunity to look beyond just one cloud provider and compare **AWS, Microsoft Azure, and Google Cloud**.
+
+I learned that although these platforms use different names for their services, they provide many similar solutions. For example, **Amazon EC2, Azure Virtual Machines, and Google Compute Engine** can all be used to host virtual machines.
+
+I also learned that choosing a cloud platform depends on the needs of the organization. AWS can be a good choice for organizations that need a wide range of services, Azure works well with Microsoft technologies, and Google Cloud has strong capabilities in areas such as AI, Machine Learning, and Kubernetes.
+
+Another part of the activity involved examining a Linux server using commands such as `lsb_release`, `lscpu`, `free`, and `df`. This helped me connect the Linux environment I was working with to actual cloud hosting services.
 
 ---
 
@@ -158,7 +178,10 @@ More importantly, I want this portfolio to reflect genuine growth—not just a l
 
 **Learning Approach:** Hands-on practice + documentation
 
+**Completed Laboratories:** 3
+
 **Portfolio Status:** 🟢 Actively Building
 
 As I continue through the semester, this repository will grow alongside my skills and experience.
 
+> **Three laboratories completed. More to learn, more to build. ☁️**
