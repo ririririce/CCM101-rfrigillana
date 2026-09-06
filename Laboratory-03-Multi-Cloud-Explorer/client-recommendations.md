@@ -1,8 +1,5 @@
 # Cloud Platform Recommendations
 
-## CloudNova Technologies – Client Recommendations
-
-Each client has different needs, so the best cloud platform depends on what they are trying to accomplish. I looked at the situation of each client and chose the platform that I think would fit their needs the most.
 
 ---
 
