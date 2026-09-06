@@ -36,6 +36,25 @@ Personally, I would choose **AWS** because it offers a wide variety of services 
 
 All three cloud platforms can be used to build, deploy, and manage applications and other IT resources. However, they have different strengths: AWS is known for its large selection of services, Azure is a strong choice for Microsoft-based organizations, and Google Cloud is especially strong in AI, data analytics, and Kubernetes.
 
+
+---
+
+## Matching Equivalent Cloud Services
+
+AWS, Azure, and Google Cloud have different names for their services, but many of them do similar things. The table below shows the equivalent services for each cloud platform.
+
+| Service Category | AWS | Azure | GCP |
+|---|---|---|---|
+| **Virtual Machine** | Amazon EC2 | Azure Virtual Machines | Compute Engine |
+| **Object Storage** | Amazon S3 | Azure Blob Storage | Cloud Storage |
+| **Identity Management** | AWS IAM | Microsoft Entra ID | Cloud IAM |
+| **SQL Database** | Amazon RDS | Azure SQL Database | Cloud SQL |
+| **Kubernetes** | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
+
+
+The three cloud platforms offer similar types of services, but they use different names for them. For example, Amazon EC2, Azure Virtual Machines, and Compute Engine can all be used to run virtual machines. In the same way, EKS, AKS, and GKE are managed services that can be used to run Kubernetes applications.
+
+
 ## References
 
 - Amazon Web Services (AWS) Official Documentation
