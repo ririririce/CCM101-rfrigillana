@@ -74,3 +74,7 @@ AWS can be used by businesses for many different purposes, such as:
 - Amazon S3 Documentation
 - Amazon RDS Documentation
 - Amazon VPC Documentation
+
+
+<img width="1911" height="992" alt="image" src="https://github.com/user-attachments/assets/a48023e0-d458-44a0-b3c2-974be2b7fd9e" />
+
