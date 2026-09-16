@@ -24,61 +24,17 @@ the services running on them.
 
 ## Docker Commands Executed
 
-### `docker --version`
-
-```bash
-docker --version
-```
-### What does this command do
-Displays the installed Docker version and confirms that Docker is available.
-
-```bash
-docker info
-```
-### What does this command do
-Displays detailed information about the Docker environment and its current status.
-
-```bash
-docker pull nginx
-```
-### What does this command do
-Downloads the official Nginx image from Docker Hub.
-
-```bash
-docker run -d -p 8080:80 --name nginx-server nginx
-```
-### What does this command do
-Creates and runs an Nginx container in the background while mapping port 8080 on the host to port 80 inside the container.
-
-```bash
-docker ps
-```
-### What does this command do
-Lists the Docker containers that are currently running.
-
-```bash
-curl http://localhost:8080
-```
-### What does this command do
-Sends an HTTP request to the Nginx web server and displays its response in the terminal.
-
-```bash
-docker stop nginx-server
-```
-### What does this command do
-Stops the running Nginx container named nginx-server.
-
-```bash
-docker rm nginx-server
-```
-### What does this command do
-Removes the stopped nginx-server container from the Docker environment.
-
-```bash
-docker ps -a
-```
-### What does this command do
-Lists all Docker containers, including running and stopped containers.
+| Command | Description |
+|---|---|
+| `docker --version` | Displays the installed Docker version and confirms that Docker is available. |
+| `docker info` | Displays detailed information about the Docker environment and its current status. |
+| `docker pull nginx` | Downloads the official Nginx image from Docker Hub. |
+| `docker run -d -p 8080:80 --name nginx-server nginx` | Creates and runs an Nginx container in the background while mapping port 8080 on the host to port 80 inside the container. |
+| `docker ps` | Lists the Docker containers that are currently running. |
+| `curl http://localhost:8080` | Sends an HTTP request to the Nginx web server and displays its response in the terminal. |
+| `docker stop nginx-server` | Stops the running Nginx container named `nginx-server`. |
+| `docker rm nginx-server` | Removes the stopped `nginx-server` container from the Docker environment. |
+| `docker ps -a` | Lists all Docker containers, including running and stopped containers. |
 
 ---
 
