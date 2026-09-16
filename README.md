@@ -23,7 +23,7 @@ This repository serves as my **Cloud Computing portfolio**, where I document my 
 
 More than just a collection of submitted activities, this repository represents my journey in learning how cloud infrastructure works and how different technologies come together to support modern IT environments.
 
-As I progress through the course, I will be exploring **Linux systems, cloud platforms, virtualization, networking, automation, security, and infrastructure technologies** through hands-on activities.
+As I progress through the course, I will be exploring **Linux systems, cloud platforms, virtualization, networking, automation, security, infrastructure, and containerization technologies** through hands-on activities.
 
 Every laboratory activity is another opportunity for me to learn something new, solve problems, and become more confident as an aspiring IT professional.
 
@@ -50,6 +50,7 @@ Throughout this course, I am developing skills in:
 - 🔧 **Cloud Infrastructure**
 - 🔐 **Cloud Security Fundamentals**
 - 📦 **Virtualization**
+- 🐳 **Containerization & Docker**
 - ⚙️ **Automation & Scripting**
 - 📝 **Technical Documentation**
 - 🔄 **Git & GitHub**
@@ -68,7 +69,7 @@ Each laboratory folder contains the work completed for a specific activity. As t
 | **Laboratory 01** | Introduction to Cloud Computing | ✅ Completed |
 | **Laboratory 02** | Build the Cloud Infrastructure Blueprint | ✅ Completed |
 | **Laboratory 03** | Multi-Cloud Explorer | ✅ Completed |
-| **Laboratory 04** | *Coming Soon* | ⏳ Upcoming |
+| **Laboratory 04** | The Cloud-Native Engineer | ✅ Completed |
 
 > More laboratory activities will be added as I progress through the course.
 
@@ -86,6 +87,7 @@ Each laboratory activity may contain:
 - 🔍 **Research and comparisons**
 - 💭 **Personal reflections**
 - 📊 **Decision matrices and recommendations**
+- 🐳 **Docker commands and container deployment**
 
 This allows each activity to document not only the final output, but also the process and lessons learned along the way.
 
@@ -99,6 +101,8 @@ The following tools and technologies are being used throughout my Cloud Computin
 |---|---|
 | 🐧 **Ubuntu Linux** | Linux environment and system administration |
 | ☁️ **KillerCoda** | Cloud-based laboratory environment |
+| 🐳 **Docker** | Containerization and application deployment |
+| 🌐 **Nginx** | Web server used for container deployment |
 | 🔄 **Git** | Version control |
 | 🐙 **GitHub** | Repository hosting and portfolio management |
 | 📝 **Markdown** | Technical documentation |
@@ -127,6 +131,10 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Cloud platform recommendations
 - [x] Linux server information gathering
 - [x] Basic cloud hosting concepts
+- [x] Basic Docker commands
+- [x] Container deployment
+- [x] Container lifecycle management
+- [x] Basic containerization concepts
 - [ ] Linux system administration
 - [ ] Cloud networking
 - [ ] Cloud security
@@ -150,6 +158,18 @@ Another part of the activity involved examining a Linux server using commands su
 
 ---
 
+## What I Learned from Cloud-Native Engineer
+
+Laboratory 04 introduced me to **Docker and containerization** and helped me understand how containers differ from traditional Virtual Machines.
+
+I learned that containers are lightweight and can start much faster because they share the host operating system's kernel instead of requiring a separate guest operating system. I also practiced basic Docker commands, including pulling an Nginx image, running a container, mapping ports, checking the container status, stopping the container, and removing it.
+
+One of the activities I found useful was deploying an Nginx web server and accessing it through `http://localhost:8080`. This helped me understand how port mapping connects a port on the host to a port inside the container.
+
+I also learned about the container lifecycle and how containers can be easily stopped and removed when they are no longer needed. Overall, this laboratory gave me my first hands-on experience with containerized applications and helped me understand an important part of cloud-native computing.
+
+---
+
 ## My Learning Journey
 
 One of the things I want to improve throughout this course is my confidence when working with unfamiliar technologies.
@@ -166,7 +186,7 @@ It shows not only what I have completed, but also how my understanding and techn
 
 > **"Learning cloud computing isn't just about using technology—it's about understanding how technology connects people, businesses, and ideas."**
 
-By the end of this course, I hope to become more confident in working with **Linux, cloud services, networking, automation, and professional development tools**.
+By the end of this course, I hope to become more confident in working with **Linux, cloud services, networking, automation, containerization, and professional development tools**.
 
 More importantly, I want this portfolio to reflect genuine growth—not just a list of completed activities.
 
@@ -174,14 +194,16 @@ More importantly, I want this portfolio to reflect genuine growth—not just a l
 
 ## Portfolio Progress
 
-**Current Focus:** Cloud Computing & Infrastructure
+**Current Focus:** Cloud Computing, Infrastructure & Containerization
 
 **Learning Approach:** Hands-on practice + documentation
 
-**Completed Laboratories:** 3
+**Completed Laboratories:** 4
 
 **Portfolio Status:** 🟢 Actively Building
 
+So far, I have completed four laboratory activities covering **cloud computing fundamentals, cloud infrastructure, multi-cloud platforms, virtualization, Linux environments, and containerization with Docker**.
+
 As I continue through the semester, this repository will grow alongside my skills and experience.
 
-> **Three laboratories completed. More to learn, more to build. ☁️**
+> **Four laboratories completed. More to learn, more to build. ☁️🐳**
