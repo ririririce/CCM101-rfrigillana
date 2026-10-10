@@ -2,11 +2,11 @@
 
 ## 1. Overview
 
-In this activity, I used Docker to run a MinIO server in the KillerCoda Ubuntu playground. MinIO is an object storage service that allows users to store files such as images and videos. After setting it up, I accessed its web console, created a bucket, and uploaded a sample image.
+In this activity, I used Docker in the KillerCoda Ubuntu playground to run a MinIO server. I then accessed its web console, created a bucket, and uploaded a sample image.
 
 ## 2. Docker Commands Used
 
-I used the following command to download and start the MinIO container:
+I used this command to start the MinIO container:
 
 ```bash
 docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
@@ -15,38 +15,28 @@ docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
   ghcr.io/imagegenius/minio:latest
 ```
 
-After running the command, I used `docker ps` to check if the container was running.
+I checked if the container was running using:
 
 ```bash
 docker ps
 ```
 
-The output showed that my `minio-server` container was running, which meant that the deployment was successful.
-
 ## 3. Port Configuration
 
-I used two ports for the MinIO server:
-
-| Port | Purpose |
-|---|---|
-| 9000 | Used for the MinIO API to communicate with applications. |
-| 9001 | Used to open the MinIO Web Console in a browser. |
-
-I accessed the web console through KillerCoda's port-forwarding feature using port 9001.
+- **Port 9000:** Used for the MinIO API.
+- **Port 9001:** Used to access the MinIO Web Console through a browser.
 
 ## 4. Environment Variables
 
-The `-e` flags in the Docker command were used to set the login credentials for MinIO.
+The `-e` flags set the login credentials for MinIO:
 
-- `MINIO_ROOT_USER=cloudadmin` sets the administrator username.
-- `MINIO_ROOT_PASSWORD=CloudNova2026!` sets the administrator password.
+- `MINIO_ROOT_USER` sets the administrator username to `cloudadmin`.
+- `MINIO_ROOT_PASSWORD` sets the administrator password.
 
-I used these credentials to log in to the MinIO Web Console.
+## 5. Bucket and File Upload
 
-## 5. Bucket Creation and File Upload
-
-After logging in, I created a bucket named `client-photos`. I then uploaded a sample image called `cel.jpg`. The image appeared in the bucket after the upload, showing that I was able to store a file successfully.
+I created a bucket named `client-photos` and uploaded a sample image called `cel.jpg`. The image appeared in the bucket, confirming that the upload was successful.
 
 ## 6. Conclusion
 
-Through this activity, I learned how to run a storage server using Docker and access it through a web browser. I also learned how to check running containers, configure ports, and set environment variables. Creating the bucket and uploading an image helped me understand how object storage works in practice.
+This activity helped me understand how to deploy MinIO using Docker, check running containers, and manage files through a web console. I also gained more experience using Linux commands and working with object storage.
