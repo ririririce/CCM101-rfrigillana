@@ -1,17 +1,29 @@
  <div align="center">
 
-<img src="https://github.com/ririririce.png" width="180">
+  <img src="https://github.com/ririririce.png" width="150" alt="Riccel B. Frigillana's profile photo">
 
-# Riccel B. Frigillana
+  <h1>Riccel B. Frigillana</h1>
 
-**Bachelor of Science in Information Technology**  
-**University of Eastern Pangasinan**
+  <p>
+    <strong>Bachelor of Science in Information Technology</strong><br>
+    University of Eastern Pangasinan
+  </p>
 
-*CCM101-Cloud Computing Portfolio*
+  <p><em>CCM101 · Cloud Computing Portfolio</em></p>
 
-**Instructor: Sir Cledmar N. Badongen**
+  <p>
+    <strong>Instructor:</strong> Sir Cledmar N. Badongen
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Cloud_Computing-Student-6C63FF?style=flat-square" alt="Cloud Computing Student">
+    <img src="https://img.shields.io/badge/Portfolio-In_Progress-2E8B57?style=flat-square" alt="Portfolio in progress">
+  </p>
 
 </div>
+
+---
+
 
 ---
 
