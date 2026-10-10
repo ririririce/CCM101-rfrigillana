@@ -1,13 +1,42 @@
-# Cloud Storage Types Research
+# MinIO Deployment Documentation
 
-There are three common types of cloud storage: Block Storage, File Storage, and Object Storage. Each type stores data in a different way and is useful for different situations.
+## 1. Overview
 
-| Storage Type | Description | Primary Use Case | Cloud Provider Example |
-|---|---|---|---|
-| **Block Storage** | Stores data in separate blocks. These blocks can be managed individually and are usually used like a regular storage drive. | It is commonly used for virtual machines, databases, and applications that need fast and reliable storage. | **AWS EBS (Elastic Block Store)** |
-| **File Storage** | Stores data as files inside folders and directories, similar to how files are organized on a computer. | It is useful when different users or systems need to access and share the same files. | **AWS EFS (Elastic File System)** |
-| **Object Storage** | Stores data as individual objects. Each object contains the actual data, information about the data, and a unique identifier. | It is commonly used for large amounts of files such as photos, videos, backups, and other media. | **AWS S3 (Simple Storage Service)** |
+In this activity, I used Docker in the KillerCoda Ubuntu playground to run a MinIO server. I then accessed its web console, created a bucket, and uploaded a sample image.
 
-### Why Object Storage is Best for User-Uploaded Images
+## 2. Docker Commands Used
 
-Object Storage is a good choice for the client's photo-sharing application because it is made for storing large amounts of files such as images and videos. It can handle millions of uploaded photos while keeping them organized and easy to access, which makes it suitable for an application that will continue to grow.
+I used this command to start the MinIO container:
+
+```bash
+docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
+  -e "MINIO_ROOT_USER=cloudadmin" \
+  -e "MINIO_ROOT_PASSWORD=CloudNova2026!" \
+  ghcr.io/imagegenius/minio:latest
+```
+
+I checked if the container was running using:
+
+```bash
+docker ps
+```
+
+## 3. Port Configuration
+
+- **Port 9000:** Used for the MinIO API.
+- **Port 9001:** Used to access the MinIO Web Console through a browser.
+
+## 4. Environment Variables
+
+The `-e` flags set the login credentials for MinIO:
+
+- `MINIO_ROOT_USER` sets the administrator username to `cloudadmin`.
+- `MINIO_ROOT_PASSWORD` sets the administrator password.
+
+## 5. Bucket and File Upload
+
+I created a bucket named `client-photos` and uploaded a sample image called `cel.jpg`. The image appeared in the bucket, confirming that the upload was successful.
+
+## 6. Conclusion
+
+This activity helped me understand how to deploy MinIO using Docker, check running containers, and manage files through a web console. I also gained more experience using Linux commands and working with object storage.
