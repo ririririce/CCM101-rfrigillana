@@ -4,7 +4,7 @@
 
 # Riccel B. Frigillana
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1800&color=FFFFFF&center=true&vCenter=true&width=500&lines=Cloud+Computing+Student;Aspiring+Cloud+Engineer;Learning+Docker+%26+MinIO;Building+my+IT+skills+one+step+at+a+time" alt="Typing animation">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1800&color=FFFFFF&center=true&vCenter=true&width=500&lines=Cloud+Computing+Student;Learning+Docker+%26+MinIO;Building+my+IT+skills+one+step+at+a+time" alt="Typing animation">
 
 **Bachelor of Science in Information Technology (BSIT)**  
 University of Eastern Pangasinan (UEP)
@@ -12,6 +12,11 @@ University of Eastern Pangasinan (UEP)
 `CCM101` · Cloud Computing
 
 Instructor: **Sir Cledmar N. Badongen**
+
+  <p>
+    <img src="https://img.shields.io/badge/Cloud_Computing-Student-6C63FF?style=flat-square" alt="Cloud Computing Student">
+    <img src="https://img.shields.io/badge/Portfolio-In_Progress-2E8B57?style=flat-square" alt="Portfolio in progress">
+  </p>
 
 </div>
 
