@@ -1,42 +1,41 @@
-# MinIO Deployment Documentation
+# Laboratory 05 - Cloud Data Engineer
 
-## 1. Overview
+## Mission Overview
 
-In this activity, I used Docker in the KillerCoda Ubuntu playground to run a MinIO server. I then accessed its web console, created a bucket, and uploaded a sample image.
+  Congratulations! Your seamless deployment of containerized web servers has caught the attention of 
+the senior architects. You have now been temporarily reassigned to the Cloud Data Engineering Team at 
+CloudNova Technologies. 
+  In the cloud, data is everything. However, not all data is stored the same way. While traditional 
+computers use hard drives (Block Storage) and shared network drives (File Storage), modern cloud applications 
+rely heavily on Object Storage to store massive amounts of unstructured data like images, videos, and backups. 
+The industry standard for this is Amazon S3, but today, you will deploy your very own S3-compatible cloud 
+storage server using an open-source tool called MinIO. 
+  Using your KillerCoda Playground, you will combine your new Docker skills with your cloud storage knowledge to 
+deploy a live object storage server, create a storage "bucket," and upload data over the web. 
+Remember: A cloud engineer doesn't just store data; they ensure it is scalable, accessible, and secure.
 
-## 2. Docker Commands Used
+## Objectives
 
-I used this command to start the MinIO container:
+At the end of this laboratory activity, we should be able to:
+- Differentiate between Block, File, and Object Storage.
+- Deploy an S3-compatible Object Storage server (MinIO) using Docker.
+- Access a cloud service via a web interface using port forwarding.
+- Create a storage bucket and upload objects (files) to the cloud.
+- Document cloud storage operations using Markdown.
+- Continue expanding a professional GitHub Cloud Computing Portfolio. 
 
-```bash
-docker run -d -p 9000:9000 -p 9001:9001 --name minio-server \
-  -e "MINIO_ROOT_USER=cloudadmin" \
-  -e "MINIO_ROOT_PASSWORD=CloudNova2026!" \
-  ghcr.io/imagegenius/minio:latest
-```
+## Tools Used
 
-I checked if the container was running using:
+- **KillerCoda** – Ubuntu playground for running commands.
+- **Docker** – Used to deploy and run the MinIO container.
+- **MinIO** – Used to store and manage files.
+- **Web Browser** – Used to access the MinIO console.
+- **GitHub** – Used to store and organize the laboratory files.
 
-```bash
-docker ps
-```
+## Skills Learned
 
-## 3. Port Configuration
-
-- **Port 9000:** Used for the MinIO API.
-- **Port 9001:** Used to access the MinIO Web Console through a browser.
-
-## 4. Environment Variables
-
-The `-e` flags set the login credentials for MinIO:
-
-- `MINIO_ROOT_USER` sets the administrator username to `cloudadmin`.
-- `MINIO_ROOT_PASSWORD` sets the administrator password.
-
-## 5. Bucket and File Upload
-
-I created a bucket named `client-photos` and uploaded a sample image called `cel.jpg`. The image appeared in the bucket, confirming that the upload was successful.
-
-## 6. Conclusion
-
-This activity helped me understand how to deploy MinIO using Docker, check running containers, and manage files through a web console. I also gained more experience using Linux commands and working with object storage.
+- Running Docker commands in Ubuntu.
+- Checking running containers using `docker ps`.
+- Configuring ports and environment variables.
+- Creating buckets and uploading files in MinIO.
+- Writing technical documentation using Markdown.
