@@ -4,7 +4,7 @@
 
 # Riccel B. Frigillana
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1800&color=FFFFFF&center=true&vCenter=true&width=500&lines=Cloud+Computing+Student;Learning+Docker+%26+MinIO;Building+my+IT+skills+one+step+at+a+time" alt="Typing animation">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1800&color=FFFFFF&center=true&vCenter=true&width=500&lines=Cloud+Computing+Student;Learning+Cloud+Computing+Technologies;Building+my+IT+skills+one+step+at+a+time" alt="Typing animation">
 
 **Bachelor of Science in Information Technology (BSIT)**  
 University of Eastern Pangasinan (UEP)
