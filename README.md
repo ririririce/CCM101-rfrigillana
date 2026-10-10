@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 <img src="https://github.com/ririririce.png" width="180">
 
@@ -23,9 +23,9 @@ This repository serves as my **Cloud Computing portfolio**, where I document my 
 
 More than just a collection of submitted activities, this repository represents my journey in learning how cloud infrastructure works and how different technologies come together to support modern IT environments.
 
-As I progress through the course, I will be exploring **Linux systems, cloud platforms, virtualization, networking, automation, security, infrastructure, and containerization technologies** through hands-on activities.
+Throughout the course, I've been exploring **Linux systems, cloud platforms, virtualization, networking, automation, security, and containerization** through hands-on activities.
 
-Every laboratory activity is another opportunity for me to learn something new, solve problems, and become more confident as an aspiring IT professional.
+Every laboratory activity gives me an opportunity to learn something new, solve problems, and become more confident as an aspiring IT professional.
 
 ---
 
@@ -33,7 +33,7 @@ Every laboratory activity is another opportunity for me to learn something new, 
 
 My mission is to build a strong foundation in **Cloud Computing** through hands-on learning and continuous practice.
 
-Rather than simply understanding concepts theoretically, I want to learn how to actually work with the tools and technologies used in cloud environments. Through this portfolio, I aim to document my progress, learn from my mistakes, and develop practical skills that I can apply to future projects.
+Rather than simply understanding concepts theoretically, I want to learn how to work with the tools and technologies used in cloud environments. Through this portfolio, I aim to document my progress, learn from my mistakes, and develop practical skills that I can apply to future projects.
 
 > **Learn. Practice. Document. Improve.**
 
@@ -51,6 +51,7 @@ Throughout this course, I am developing skills in:
 - 🔐 **Cloud Security Fundamentals**
 - 📦 **Virtualization**
 - 🐳 **Containerization & Docker**
+- 🗄️ **Object Storage with MinIO**
 - ⚙️ **Automation & Scripting**
 - 📝 **Technical Documentation**
 - 🔄 **Git & GitHub**
@@ -70,6 +71,7 @@ Each laboratory folder contains the work completed for a specific activity. As t
 | **Laboratory 02** | Build the Cloud Infrastructure Blueprint | ✅ Completed |
 | **Laboratory 03** | Multi-Cloud Explorer | ✅ Completed |
 | **Laboratory 04** | The Cloud-Native Engineer | ✅ Completed |
+| **Laboratory 05** | MinIO Object Storage Deployment | ✅ Completed |
 
 > More laboratory activities will be added as I progress through the course.
 
@@ -88,8 +90,9 @@ Each laboratory activity may contain:
 - 💭 **Personal reflections**
 - 📊 **Decision matrices and recommendations**
 - 🐳 **Docker commands and container deployment**
+- 🗄️ **MinIO setup and object storage deployment**
 
-This allows each activity to document not only the final output, but also the process and lessons learned along the way.
+This allows each activity to document not only the final output but also the process and lessons learned along the way.
 
 ---
 
@@ -102,6 +105,7 @@ The following tools and technologies are being used throughout my Cloud Computin
 | 🐧 **Ubuntu Linux** | Linux environment and system administration |
 | ☁️ **KillerCoda** | Cloud-based laboratory environment |
 | 🐳 **Docker** | Containerization and application deployment |
+| 🗄️ **MinIO** | S3-compatible object storage |
 | 🌐 **Nginx** | Web server used for container deployment |
 | 🔄 **Git** | Version control |
 | 🐙 **GitHub** | Repository hosting and portfolio management |
@@ -127,7 +131,6 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Cloud provider service comparison
 - [x] Basic cloud infrastructure design
 - [x] Multi-cloud concepts
-- [x] Cloud service comparison
 - [x] Cloud platform recommendations
 - [x] Linux server information gathering
 - [x] Basic cloud hosting concepts
@@ -135,6 +138,10 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Container deployment
 - [x] Container lifecycle management
 - [x] Basic containerization concepts
+- [x] Running a containerized Nginx web server
+- [x] Deploying MinIO using Docker
+- [x] Understanding object storage fundamentals
+- [x] Accessing containerized services through mapped ports
 - [ ] Linux system administration
 - [ ] Cloud networking
 - [ ] Cloud security
@@ -152,7 +159,7 @@ Laboratory 03 gave me the opportunity to look beyond just one cloud provider and
 
 I learned that although these platforms use different names for their services, they provide many similar solutions. For example, **Amazon EC2, Azure Virtual Machines, and Google Compute Engine** can all be used to host virtual machines.
 
-I also learned that choosing a cloud platform depends on the needs of the organization. AWS can be a good choice for organizations that need a wide range of services, Azure works well with Microsoft technologies, and Google Cloud has strong capabilities in areas such as AI, Machine Learning, and Kubernetes.
+I also learned that choosing a cloud platform depends on the needs of an organization. AWS offers a wide range of services, Azure works well with Microsoft technologies, and Google Cloud has strong capabilities in areas such as AI, machine learning, and Kubernetes.
 
 Another part of the activity involved examining a Linux server using commands such as `lsb_release`, `lscpu`, `free`, and `df`. This helped me connect the Linux environment I was working with to actual cloud hosting services.
 
@@ -160,13 +167,27 @@ Another part of the activity involved examining a Linux server using commands su
 
 ## What I Learned from Cloud-Native Engineer
 
-Laboratory 04 introduced me to **Docker and containerization** and helped me understand how containers differ from traditional Virtual Machines.
+Laboratory 04 introduced me to **Docker and containerization** and helped me understand how containers differ from traditional virtual machines.
 
-I learned that containers are lightweight and can start much faster because they share the host operating system's kernel instead of requiring a separate guest operating system. I also practiced basic Docker commands, including pulling an Nginx image, running a container, mapping ports, checking the container status, stopping the container, and removing it.
+I learned that containers are lightweight and can start much faster because they share the host operating system's kernel instead of requiring a separate guest operating system.
 
-One of the activities I found useful was deploying an Nginx web server and accessing it through `http://localhost:8080`. This helped me understand how port mapping connects a port on the host to a port inside the container.
+I also practiced basic Docker commands, including pulling an Nginx image, running a container, mapping ports, checking its status, stopping it, and removing it.
 
-I also learned about the container lifecycle and how containers can be easily stopped and removed when they are no longer needed. Overall, this laboratory gave me my first hands-on experience with containerized applications and helped me understand an important part of cloud-native computing.
+One of the activities I found useful was deploying an Nginx web server and accessing it through `http://localhost:8080`. This helped me understand how port mapping connects a port on the host to a port inside a container.
+
+Overall, this laboratory gave me hands-on experience with containerized applications and helped me understand an important part of cloud-native computing.
+
+---
+
+## What I Learned from MinIO Object Storage Deployment
+
+Laboratory 05 introduced me to **MinIO, an object storage solution that supports the Amazon S3 API**, and gave me more practice deploying services using Docker.
+
+I learned how to run MinIO in a container and map ports `9000` and `9001` so I could access its services through the host machine. I also became more familiar with Docker options such as `-d`, `-p`, and `--name`, which helped me understand how to run a container in the background, expose ports, and assign a name to a container.
+
+This activity helped me see how Docker can be used to deploy more than just web servers. It can also run storage services that organize and manage objects such as files and other data.
+
+Although I still have more to learn about object storage and cloud infrastructure, this laboratory helped me become more comfortable with container deployment and gave me a better understanding of how storage services can be used in cloud environments.
 
 ---
 
@@ -178,7 +199,7 @@ There will definitely be commands I forget, errors I don't immediately understan
 
 This portfolio is a record of that process.
 
-It shows not only what I have completed, but also how my understanding and technical skills develop over time.
+It shows not only what I have completed but also how my understanding and technical skills develop over time.
 
 ---
 
@@ -198,12 +219,14 @@ More importantly, I want this portfolio to reflect genuine growth—not just a l
 
 **Learning Approach:** Hands-on practice + documentation
 
-**Completed Laboratories:** 4
+**Completed Laboratories:** 5
 
 **Portfolio Status:** 🟢 Actively Building
 
-So far, I have completed four laboratory activities covering **cloud computing fundamentals, cloud infrastructure, multi-cloud platforms, virtualization, Linux environments, and containerization with Docker**.
+So far, I have completed five laboratory activities covering **cloud computing fundamentals, cloud infrastructure, multi-cloud platforms, Linux environments, virtualization, Docker, containerization, and MinIO object storage**.
+
+Each laboratory has helped me understand another part of cloud computing, from exploring cloud providers to deploying services inside containers.
 
 As I continue through the semester, this repository will grow alongside my skills and experience.
 
-> **Four laboratories completed. More to learn, more to build. ☁️🐳**
+> **Five laboratories completed. More to learn, more to build. ☁️🐳🗄️**
