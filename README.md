@@ -1,24 +1,17 @@
  <div align="center">
 
-  <img src="https://github.com/ririririce.png" width="150" alt="Riccel B. Frigillana's profile photo">
+<img src="https://github.com/ririririce.png" width="140" alt="Riccel B. Frigillana">
 
-  <h1>Riccel B. Frigillana</h1>
+# Riccel B. Frigillana
 
-  <p>
-    <strong>Bachelor of Science in Information Technology</strong><br>
-    University of Eastern Pangasinan
-  </p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1800&color=FFFFFF&center=true&vCenter=true&width=500&lines=Cloud+Computing+Student;Aspiring+Cloud+Engineer;Learning+Docker+%26+MinIO;Building+my+IT+skills+one+step+at+a+time" alt="Typing animation">
 
-  <p><em>CCM101 · Cloud Computing Portfolio</em></p>
+**Bachelor of Science in Information Technology (BSIT)**  
+University of Eastern Pangasinan (UEP)
 
-  <p>
-    <strong>Instructor:</strong> Sir Cledmar N. Badongen
-  </p>
+`CCM101` · Cloud Computing
 
-  <p>
-    <img src="https://img.shields.io/badge/Cloud_Computing-Student-6C63FF?style=flat-square" alt="Cloud Computing Student">
-    <img src="https://img.shields.io/badge/Portfolio-In_Progress-2E8B57?style=flat-square" alt="Portfolio in progress">
-  </p>
+Instructor: **Sir Cledmar N. Badongen**
 
 </div>
 
