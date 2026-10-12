@@ -73,7 +73,7 @@ Throughout this course, I am developing skills in:
 
 ## Laboratory Portfolio
 
-Each laboratory folder contains the work completed for a specific activity. As the semester continues, this section will grow with new projects and exercises.
+Each laboratory folder contains the work completed for a specific activity. As I continue learning, this section keeps track of the activities I've finished and the skills I've gained along the way.
 
 | **Laboratory** | **Focus** | **Status** |
 |---|---|---|
@@ -82,8 +82,9 @@ Each laboratory folder contains the work completed for a specific activity. As t
 | **Laboratory 03** | Multi-Cloud Explorer | ✅ Completed |
 | **Laboratory 04** | The Cloud-Native Engineer | ✅ Completed |
 | **Laboratory 05** | MinIO Object Storage Deployment | ✅ Completed |
+| **Laboratory 06** | The Cloud Deployment Engineer | ✅ Completed |
 
-> More laboratory activities will be added as I progress through the course.
+> Each laboratory gives me a chance to explore new tools, practice technical skills, and understand more about how cloud technologies work.
 
 ---
 
@@ -125,6 +126,10 @@ The following tools and technologies are being used throughout my Cloud Computin
 | ☁️ **AWS** | Cloud platform research and service comparison |
 | 🔷 **Microsoft Azure** | Cloud platform research and service comparison |
 | 🌐 **Google Cloud** | Cloud platform research and service comparison |
+| ⚙️ **Docker Compose** | Configuring and managing multiple related containers |
+| ☁️ **Nextcloud** | Private cloud storage application |
+| 🗄️ **MariaDB** | Database management for the Nextcloud application |
+| 📄 **YAML** | Writing configuration files for Docker Compose |
 
 ---
 
@@ -152,6 +157,12 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Deploying MinIO using Docker
 - [x] Understanding object storage fundamentals
 - [x] Accessing containerized services through mapped ports
+- [x] Writing a Docker Compose configuration file
+- [x] Understanding two-tier application architecture
+- [x] Connecting application and database containers
+- [x] Deploying multiple services with Docker Compose
+- [x] Understanding environment variables in container configuration
+- [x] Basic Infrastructure as Code (IaC) concepts
 - [ ] Linux system administration
 - [ ] Cloud networking
 - [ ] Cloud security
@@ -201,6 +212,18 @@ Although I still have more to learn about object storage and cloud infrastructur
 
 ---
 
+## What I Learned from Cloud Deployment Engineer
+
+Laboratory 06 helped me understand how Docker Compose can make application deployment easier. Instead of configuring Nextcloud and MariaDB separately, I used a `docker-compose.yml` file to define both services in one place.
+
+I also learned how the two containers communicate with each other and why the `MYSQL_HOST` environment variable is important for connecting Nextcloud to MariaDB. Working with YAML gave me more practice writing configuration files and reminded me to be careful with indentation.
+
+What I found useful about this activity was seeing how different services can work together to form one application. It helped me understand that cloud deployment is not just about running containers but also about configuring them properly so they can communicate.
+
+I still have more to learn, but this laboratory gave me a better understanding of Docker Compose and how it can simplify the process of managing multi-container applications.
+
+---
+
 ## My Learning Journey
 
 One of the things I want to improve throughout this course is my confidence when working with unfamiliar technologies.
@@ -229,14 +252,14 @@ More importantly, I want this portfolio to reflect genuine growth—not just a l
 
 **Learning Approach:** Hands-on practice + documentation
 
-**Completed Laboratories:** 5
+**Completed Laboratories:** 6
 
 **Portfolio Status:** 🟢 Actively Building
 
-So far, I have completed five laboratory activities covering **cloud computing fundamentals, cloud infrastructure, multi-cloud platforms, Linux environments, virtualization, Docker, containerization, and MinIO object storage**.
+So far, I have worked through six laboratory activities covering cloud computing fundamentals, cloud infrastructure, multi-cloud platforms, Linux environments, containerization, object storage, and multi-container deployment.
 
-Each laboratory has helped me understand another part of cloud computing, from exploring cloud providers to deploying services inside containers.
+Each activity has helped me build on what I learned previously, from exploring cloud providers to configuring applications and databases with Docker Compose.
 
 As I continue through the semester, this repository will grow alongside my skills and experience.
 
-> **Five laboratories completed. More to learn, more to build. ☁️🐳🗄️**
+> **Six laboratories completed. More to learn, more to build. ☁️🐳🗄️**
