@@ -2,20 +2,20 @@
 
 ## Overview
 
-Docker Compose makes it easier to run multiple containers that need to work together. In this laboratory, I used a `docker-compose.yml` file to configure Nextcloud and MariaDB so they can work as a private cloud storage system.
+In this activity, I learned how to use Docker Compose to run Nextcloud and MariaDB together. Instead of setting up each container separately, I used a `docker-compose.yml` file to put their configurations in one place and make them easier to manage.
 
 ## What Does the `services:` Block Do?
 
-The `services:` block defines the containers that Docker Compose needs to run. In my configuration, there are two services: `database`, which uses MariaDB to store application information, and `app`, which runs Nextcloud. Each service has its own settings, such as the image, environment variables, and port configuration.
+The `services:` block lists the containers needed for the application. In my configuration, the `database` service runs MariaDB, while the `app` service runs Nextcloud. Each service has its own settings, including the Docker image, environment variables, and port configuration.
 
 ## How Does Nextcloud Find the Database?
 
-Nextcloud finds the database through the `MYSQL_HOST=database` environment variable in the Compose file. The name `database` matches the database service defined under `services:`. Docker Compose provides network communication between the services, allowing Nextcloud to connect to MariaDB using that service name.
+I used `MYSQL_HOST=database` to tell Nextcloud where to find the database. The word `database` matches the service name in my Compose file, so Nextcloud can use it to connect to MariaDB through Docker Compose's network.
 
 ## Difference Between `docker run` and `docker-compose up -d`
 
-The `docker run` command is commonly used to create and start an individual container by specifying its settings directly in the terminal. In comparison, `docker-compose up -d` uses a YAML configuration file to start and manage multiple related services together in the background. This makes Docker Compose more convenient for applications like Nextcloud that depend on a separate database container.
+The `docker run` command is useful when I want to start an individual container by entering its settings directly in the terminal. On the other hand, `docker-compose up -d` uses a YAML file to start multiple related services together in the background. This makes Docker Compose more convenient when an application, like Nextcloud, needs a separate database to work properly.
 
-## Conclusion
+## What I Learned
 
-Through this activity, I learned how Docker Compose organizes multiple containers in one configuration file. It also helped me understand how Nextcloud and MariaDB communicate and how Infrastructure as Code can make deployments easier to manage.
+Through this activity, I understood how Docker Compose helps organize and manage multiple containers. I also learned how Nextcloud connects to MariaDB and how using a configuration file can make deploying an application easier.
