@@ -1,4 +1,4 @@
-# Mission 6: The Cloud Deployment Engineer
+# The Cloud Deployment Engineer
 
 ## Mission Overview
 
