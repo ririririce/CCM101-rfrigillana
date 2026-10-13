@@ -83,6 +83,7 @@ Each laboratory folder contains the work completed for a specific activity. As I
 | **Laboratory 04** | The Cloud-Native Engineer | ✅ Completed |
 | **Laboratory 05** | MinIO Object Storage Deployment | ✅ Completed |
 | **Laboratory 06** | The Cloud Deployment Engineer | ✅ Completed |
+| **Laboratory 07** | The Cloud Operations Engineer | ✅ Completed |
 
 > Each laboratory gives me a chance to explore new tools, practice technical skills, and understand more about how cloud technologies work.
 
@@ -102,6 +103,11 @@ Each laboratory activity may contain:
 - 📊 **Decision matrices and recommendations**
 - 🐳 **Docker commands and container deployment**
 - 🗄️ **MinIO setup and object storage deployment**
+- 📈 **System Resource Monitoring**
+- 📊 **Real-Time Container Metrics**
+- 📋 **Application Logs and Error Analysis**
+- 🌐 **HTTP Request Testing**
+- 🔍 **Linux System Troubleshooting**
 
 This allows each activity to document not only the final output but also the process and lessons learned along the way.
 
@@ -130,6 +136,10 @@ The following tools and technologies are being used throughout my Cloud Computin
 | ☁️ **Nextcloud** | Private cloud storage application |
 | 🗄️ **MariaDB** | Database management for the Nextcloud application |
 | 📄 **YAML** | Writing configuration files for Docker Compose |
+| 📈 **Docker Stats** | Monitoring container CPU, memory, and network usage |
+| 📋 **Docker Logs** | Checking application activity and identifying errors |
+| 🌐 **cURL** | Sending HTTP requests to test website responses |
+| 🖥️ **Linux Monitoring Commands** | Checking RAM, disk storage, CPU activity, and running processes |
 
 ---
 
@@ -163,6 +173,14 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Deploying multiple services with Docker Compose
 - [x] Understanding environment variables in container configuration
 - [x] Basic Infrastructure as Code (IaC) concepts
+- [x] Linux memory and disk monitoring
+- [x] Monitoring CPU activity and running processes
+- [x] Deploying an Nginx web server container
+- [x] Sending HTTP requests using cURL
+- [x] Identifying HTTP 404 errors
+- [x] Inspecting Docker container logs
+- [x] Monitoring real-time container metrics
+- [x] Understanding basic application observability
 - [ ] Linux system administration
 - [ ] Cloud networking
 - [ ] Cloud security
@@ -224,6 +242,16 @@ I still have more to learn, but this laboratory gave me a better understanding o
 
 ---
 
+## What I Learned from Cloud Operations Engineer
+
+Laboratory 07 helped me understand why monitoring is important even after an application has been deployed. I practiced checking the server's RAM, disk space, and CPU activity using Linux commands before monitoring my Nginx container.
+
+I also learned how to use `curl` to send HTTP requests and simulate a 404 error by visiting a page that does not exist. Using `docker logs` helped me see the requests recorded by Nginx, while `docker stats` allowed me to check the container's CPU and memory usage in real time.
+
+One thing I learned from this activity is that deploying an application is only part of the process. We also need to monitor its performance and check for errors to understand whether it is working properly. This laboratory gave me more practice troubleshooting basic problems and made me more familiar with the tools used to monitor containerized applications.
+
+---
+
 ## My Learning Journey
 
 One of the things I want to improve throughout this course is my confidence when working with unfamiliar technologies.
@@ -252,14 +280,14 @@ More importantly, I want this portfolio to reflect genuine growth—not just a l
 
 **Learning Approach:** Hands-on practice + documentation
 
-**Completed Laboratories:** 6
+**Completed Laboratories:** 7
 
 **Portfolio Status:** 🟢 Actively Building
 
-So far, I have worked through six laboratory activities covering cloud computing fundamentals, cloud infrastructure, multi-cloud platforms, Linux environments, containerization, object storage, and multi-container deployment.
+So far, I have completed seven laboratory activities covering cloud computing fundamentals, infrastructure design, multi-cloud platforms, Linux environments, containerization, object storage, multi-container deployment, and application monitoring.
 
-Each activity has helped me build on what I learned previously, from exploring cloud providers to configuring applications and databases with Docker Compose.
+Each activity has helped me build on what I learned before, from exploring cloud services to deploying applications and checking their performance.
 
 As I continue through the semester, this repository will grow alongside my skills and experience.
 
-> **Six laboratories completed. More to learn, more to build. ☁️🐳🗄️**
+> **Seven laboratories completed. Still learning, still building. ☁️🐳📈**
