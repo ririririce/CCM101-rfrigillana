@@ -84,6 +84,7 @@ Each laboratory folder contains the work completed for a specific activity. As I
 | **Laboratory 05** | MinIO Object Storage Deployment | ✅ Completed |
 | **Laboratory 06** | The Cloud Deployment Engineer | ✅ Completed |
 | **Laboratory 07** | The Cloud Operations Engineer | ✅ Completed |
+| **Laboratory 08** | The Cloud Security Engineer | ✅ Completed |
 
 > Each laboratory gives me a chance to explore new tools, practice technical skills, and understand more about how cloud technologies work.
 
@@ -108,6 +109,8 @@ Each laboratory activity may contain:
 - 📋 **Application Logs and Error Analysis**
 - 🌐 **HTTP Request Testing**
 - 🔍 **Linux System Troubleshooting**
+- 🔐 **Firewall Configuration with UFW**
+- 🛡️ **Server Security and Port Management**
 
 This allows each activity to document not only the final output but also the process and lessons learned along the way.
 
@@ -140,6 +143,7 @@ The following tools and technologies are being used throughout my Cloud Computin
 | 📋 **Docker Logs** | Checking application activity and identifying errors |
 | 🌐 **cURL** | Sending HTTP requests to test website responses |
 | 🖥️ **Linux Monitoring Commands** | Checking RAM, disk storage, CPU activity, and running processes |
+| 🔐 **UFW (Uncomplicated Firewall)** | Controlling incoming traffic and managing allowed ports |
 
 ---
 
@@ -181,6 +185,10 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Inspecting Docker container logs
 - [x] Monitoring real-time container metrics
 - [x] Understanding basic application observability
+- [x] Understanding the Principle of Least Privilege and Default Deny
+- [x] Configuring UFW firewall rules
+- [x] Allowing SSH and specific application ports
+- [x] Reducing a server's attack surface
 - [ ] Linux system administration
 - [ ] Cloud networking
 - [ ] Cloud security
@@ -252,6 +260,16 @@ One thing I learned from this activity is that deploying an application is only 
 
 ---
 
+## What I Learned from Cloud Security Engineer
+
+Laboratory 08 helped me understand that running an application is not enough; the server also needs to be protected. I deployed an Nginx container with Docker and used UFW (Uncomplicated Firewall) to control which incoming connections were allowed.
+
+I practiced allowing SSH for remote administration, setting a Default Deny policy for incoming traffic, and opening TCP port 8080 for my web application. Checking the firewall rules and testing the Nginx page with `curl` helped me understand how these commands work in practice.
+
+This activity also showed me why unnecessary open ports can be risky. A firewall adds another layer of protection, and allowing only the connections needed by the application helps reduce the server's attack surface. I still have more to learn about cloud security, but this laboratory gave me a better understanding of how basic firewall rules help protect a server.
+
+---
+
 ## My Learning Journey
 
 One of the things I want to improve throughout this course is my confidence when working with unfamiliar technologies.
@@ -280,14 +298,14 @@ More importantly, I want this portfolio to reflect genuine growth—not just a l
 
 **Learning Approach:** Hands-on practice + documentation
 
-**Completed Laboratories:** 7
+**Completed Laboratories:** 8
 
 **Portfolio Status:** 🟢 Actively Building
 
-So far, I have completed seven laboratory activities covering cloud computing fundamentals, infrastructure design, multi-cloud platforms, Linux environments, containerization, object storage, multi-container deployment, and application monitoring.
+So far, I have completed eight laboratory activities covering cloud computing fundamentals, infrastructure design, multi-cloud platforms, Linux environments, containerization, object storage, multi-container deployment, application monitoring, and basic server security.
 
 Each activity has helped me build on what I learned before, from exploring cloud services to deploying applications and checking their performance.
 
 As I continue through the semester, this repository will grow alongside my skills and experience.
 
-> **Seven laboratories completed. Still learning, still building. ☁️🐳📈**
+> **Eight laboratories completed. Still learning, still building. ☁️🐳📈**
