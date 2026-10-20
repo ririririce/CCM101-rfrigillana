@@ -85,6 +85,7 @@ Each laboratory folder contains the work completed for a specific activity. As I
 | **Laboratory 06** | The Cloud Deployment Engineer | ✅ Completed |
 | **Laboratory 07** | The Cloud Operations Engineer | ✅ Completed |
 | **Laboratory 08** | The Cloud Security Engineer | ✅ Completed |
+| **Laboratory 09** | The Cloud Automation Engineer | ✅ Completed |
 
 > Each laboratory gives me a chance to explore new tools, practice technical skills, and understand more about how cloud technologies work.
 
@@ -111,6 +112,8 @@ Each laboratory activity may contain:
 - 🔍 **Linux System Troubleshooting**
 - 🔐 **Firewall Configuration with UFW**
 - 🛡️ **Server Security and Port Management**
+- ⚙️ **Bash Scripting and Backup Automation**
+- ⏰ **Cron Job Configuration and Task Scheduling**
 
 This allows each activity to document not only the final output but also the process and lessons learned along the way.
 
@@ -144,6 +147,9 @@ The following tools and technologies are being used throughout my Cloud Computin
 | 🌐 **cURL** | Sending HTTP requests to test website responses |
 | 🖥️ **Linux Monitoring Commands** | Checking RAM, disk storage, CPU activity, and running processes |
 | 🔐 **UFW (Uncomplicated Firewall)** | Controlling incoming traffic and managing allowed ports |
+| ⚙️ **Bash** | Writing scripts to automate Linux commands and backup tasks |
+| ⏰ **Cron** | Scheduling scripts to run automatically at specific times |
+| 📦 **tar** | Creating compressed archives for application data backups |
 
 ---
 
@@ -189,10 +195,11 @@ My goal is not only to complete the laboratory requirements but also to graduall
 - [x] Configuring UFW firewall rules
 - [x] Allowing SSH and specific application ports
 - [x] Reducing a server's attack surface
-- [ ] Linux system administration
-- [ ] Cloud networking
-- [ ] Cloud security
-- [ ] Automation and scripting
+- [x] Basic Bash scripting and command automation
+- [x] Creating compressed backups using `tar`
+- [x] Configuring file permissions using `chmod`
+- [x] Scheduling automated tasks using cron
+- [ ] Advanced automation and scripting
 - [ ] Cloud deployment
 - [ ] Infrastructure management
 
@@ -270,6 +277,20 @@ This activity also showed me why unnecessary open ports can be risky. A firewall
 
 ---
 
+---
+
+## What I Learned from Cloud Automation Engineer
+
+Laboratory 09 introduced me to Bash scripting and showed me how automation can make repetitive tasks easier to manage. I created a script that backs up sample application data, used `chmod +x` to make the script executable, and verified that it generated a compressed `.tar.gz` archive.
+
+I also learned how to use cron to schedule the backup script to run every day at 2:00 AM. This helped me understand how Linux can handle routine tasks automatically instead of requiring someone to execute commands manually each time.
+
+One thing I realized from this activity is that automation needs to be handled carefully. A mistake in a script or an incorrect schedule could cause problems, especially when managing many servers. Testing the script and checking the configuration are important steps before relying on automation.
+
+Overall, this laboratory helped me connect the Linux commands I learned in previous activities with a practical automation task. It also gave me a better understanding of how cloud engineers can save time, reduce repetitive work, and manage systems more efficiently.
+
+---
+
 ## My Learning Journey
 
 One of the things I want to improve throughout this course is my confidence when working with unfamiliar technologies.
@@ -294,18 +315,18 @@ More importantly, I want this portfolio to reflect genuine growth—not just a l
 
 ## Portfolio Progress
 
-**Current Focus:** Cloud Computing, Infrastructure & Containerization
+**Current Focus:** Cloud Computing, Infrastructure, Security & Automation
 
 **Learning Approach:** Hands-on practice + documentation
 
-**Completed Laboratories:** 8
+**Completed Laboratories:** 9
 
 **Portfolio Status:** 🟢 Actively Building
 
-So far, I have completed eight laboratory activities covering cloud computing fundamentals, infrastructure design, multi-cloud platforms, Linux environments, containerization, object storage, multi-container deployment, application monitoring, and basic server security.
+So far, I have completed nine laboratory activities covering cloud computing fundamentals, infrastructure design, multi-cloud platforms, containerization, object storage, application deployment, system monitoring, server security, and automation.
 
-Each activity has helped me build on what I learned before, from exploring cloud services to deploying applications and checking their performance.
+Each activity has helped me build on what I learned before, from exploring cloud services to deploying applications, monitoring their performance, securing servers, and automating repetitive tasks.
 
-As I continue through the semester, this repository will grow alongside my skills and experience.
+As I look back at my progress, I can see how much I have learned throughout the semester. I still have more to explore, but every laboratory gives me more opportunities to practice, solve problems, and improve my technical skills.
 
-> **Eight laboratories completed. Still learning, still building. ☁️🐳📈**
+> **Nine laboratories completed. Still learning, still building. ☁️🐳⚙️**
